@@ -1,0 +1,54 @@
+@import '../Abstract/_base.css';
+
+.profile{
+    background-color: var(--color-2);
+    padding: 3rem;
+    border-bottom: 2px solid var(--color-3);
+    border-top: 2px solid var(--color-3);
+}
+
+.profile__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-4);
+}
+
+.profile__text{
+    margin: 1rem 0;
+}
+
+.profile__list{
+    display: flex;
+    gap: 2rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 1rem;
+}
+
+.profile__list__item{
+    min-width: 200px;
+    height: 200px;
+    padding: 50px;
+    background-color: var(--color-1);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+.profile .conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile .conteiner a{
+    text-align: center;
+    width: 25vh;
+    font-weight: 500;
+    padding: 1rem;
+}

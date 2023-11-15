@@ -1,0 +1,55 @@
+@import '../Abstract/_base.css';
+
+.presentation{
+    background-color: var(--color-2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem 3rem 0 3rem;
+    margin-bottom: 5rem;
+    gap: 5rem;
+    border-bottom: 2px solid var(--color-3);
+}
+
+.presentation__content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    row-gap: .7rem;
+}
+
+.presentation__content__subtitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    grid-area: 1/1/2/3;
+}
+
+.presentation__content__title{
+    font-size: 2rem;
+    font-weight: 700;
+    grid-area: 2/1/3/3;
+}
+
+.presentation__content__text{
+    grid-area: 3/1/4/3;
+}
+
+.presentation__content__ancor{
+    grid-row: 4/5;
+    width: 120px;
+    justify-self: center;
+    padding: 1rem;
+}
+
+.presentation__content a{
+    text-align: center;
+    color: var(--color-4);
+    font-weight: 300;
+    align-self: center;
+}
+
+.presentation__img{
+    border-radius: 16px 16px 0 0;
+    border: 6px double var(--color-3);
+    border-bottom: none;
+}

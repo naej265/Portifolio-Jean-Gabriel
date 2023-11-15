@@ -1,0 +1,29 @@
+@import '../Abstract/_base.css';
+@import './header.css';
+@import './presentation.css';
+@import './profile.css';
+@import './contact.css';
+@import './footer.css';
+
+body{
+    background-color: var(--color-1);
+    font-family: var(--font-1);
+    color: var(--color-white);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    color: var(--color-white);
+    text-decoration: none;
+    border: 2px solid var(--color-3);
+    border-radius: 16px 2px 16px 16px;
+    box-shadow: 5px 5px 10px black;
+    background-color: transparent;
+    color: var(--color-4);
+}
+
+a:hover{
+    background-color: var(--color-3);
+    color: var(--color-white);
+}
