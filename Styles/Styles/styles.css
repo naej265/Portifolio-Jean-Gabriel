@@ -4,6 +4,7 @@
 @import './profile.css';
 @import './contact.css';
 @import './footer.css';
+@import './responsive.css';
 
 body{
     background-color: var(--color-1);
